@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SLT xmlns="tag:atsc.org,2016:XMLSchemas/ATSC3/Delivery/SLT/1.0/"
+     bsid="0">
+   <Service serviceId="027"
+      globalServiceID="urn:X-plataformacomum:tv30:mainSvc"
+      sltSvcSeqNum="0"
+      serviceCategory="30"
+      configuration="Broadband">
+      <SvcInetUrl urlType="1">
+         https://plataformacomum.tv.br/tv30signaling/sls
+      </SvcInetUrl>
+   </Service>
+</SLT>
