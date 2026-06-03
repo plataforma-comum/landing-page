@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BAMT xmlns="tag:sbtvd.org.br,2025:XMLSchemas/TV30/Delivery/BAMT/1.0/">
-   <BAM globalServiceId="urn:X-plataformacomum:tv30:mainSvc"
+   <BAM globalServiceId="urn:tv30:plataformacomum"
       appVersion="0"
       appName="mais br"
       appDescription="Tudo público em um só lugar"

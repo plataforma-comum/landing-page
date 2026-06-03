@@ -2,7 +2,7 @@
 <SLT xmlns="tag:atsc.org,2016:XMLSchemas/ATSC3/Delivery/SLT/1.0/"
      bsid="0">
    <Service serviceId="027"
-      globalServiceID="urn:X-plataformacomum:tv30:mainSvc"
+      globalServiceID="urn:tv30:plataformacomum"
       sltSvcSeqNum="0"
       serviceCategory="30"
       configuration="Broadband">
