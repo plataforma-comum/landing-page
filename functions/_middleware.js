@@ -4,7 +4,7 @@ export async function onRequest(context) {
 
   // Catch any request trying to access the signaling path, regardless of case
   if (path.toLowerCase().startsWith('/tv30signaling/')) {
-    
+
     // Define the only exact case-sensitive paths that are allowed
     const exactAllowedPaths = [
       '/tv30signaling/lls/BAMT',
@@ -14,8 +14,8 @@ export async function onRequest(context) {
 
     // If the exact requested path is not in the allow list, kill it immediately
     if (!exactAllowedPaths.includes(path)) {
-      return new Response('404 Not Found', { 
-        status: 404, 
+      return new Response('404 Not Found', {
+        status: 404,
         statusText: 'Not Found',
         headers: {
           'Content-Type': 'text/plain'
