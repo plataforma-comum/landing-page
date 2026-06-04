@@ -1,2 +1,5 @@
-/tv30signaling/*
+/tv30signaling/lls/*
+  Content-Type: application/xml
+
+/tv30signaling/sls/*
   Content-Type: application/xml
